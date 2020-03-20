@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#666666"
+    tools:context=".ProfileFragment">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="306dp"
+        android:layout_marginTop="28dp"
+
+        android:src="@drawable/backcircler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="112dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="150dp"
+        android:src="@drawable/profileimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="357dp"
+        android:layout_height="448dp"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/pi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="Profile Information :-"
+                android:textColor="#666666"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/Lid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pi"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="ID                :-"
+                android:textColor="#666666"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/Lname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Lid"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:text="Name         :-"
+                android:textColor="#666666"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/Lemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Lname"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:text="Email          :-"
+                android:textColor="#666666"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/Lpass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Lemail"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:text="Password  :-"
+                android:textColor="#666666"
+                android:textSize="23sp" />
+
+
+            <TextView
+                android:id="@+id/Lphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Lpass"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:text="Phone        :-"
+                android:textColor="#666666"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/Ldate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Lphone"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:text="Date           :-"
+                android:textColor="#666666"
+                android:textSize="23sp" />
+
+
+            <TextView
+                android:id="@+id/Lgender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ldate"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:text="Gender       :-"
+                android:textColor="#666666"
+                android:textSize="23sp" />
+            <TextView
+                android:id="@+id/Lhobies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Lgender"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:text="Hobies       :-"
+                android:textColor="#666666"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="62dp"
+                android:layout_alignLeft="@+id/Lid"
+                android:layout_marginLeft="140dp"
+                android:text="1"
+                android:textColor="#8BC34A"
+                android:textSize="23sp" />
+
+
+            <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Lname"
+            android:layout_below="@+id/id"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="140dp"
+            android:text="Aman Holkar"
+            android:textColor="#8BC34A"
+                android:textSize="23sp" />
+
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/Lname"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="140dp"
+                android:text="@string/amanholkar00_gmail_com"
+                android:textColor="#8BC34A"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/Lname"
+                android:layout_below="@+id/email"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="140dp"
+                android:text="aman@083"
+                android:textColor="#8BC34A"
+                android:textSize="23sp" />
+
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/Lname"
+                android:layout_below="@+id/pass"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="140dp"
+                android:text="8871881720"
+                android:textColor="#8BC34A"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/Lname"
+                android:layout_below="@+id/phone"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="140dp"
+                android:text="30-03-1998"
+                android:textColor="#8BC34A"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/Lname"
+                android:layout_below="@+id/date"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="140dp"
+                android:text="Male"
+                android:textColor="#8BC34A"
+                android:textSize="23sp" />
+            <TextView
+                android:id="@+id/hobies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/Lname"
+                android:layout_below="@+id/gender"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="140dp"
+                android:text="Guitar,Dance,Gym"
+                android:textColor="#8BC34A"
+                android:textSize="23sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

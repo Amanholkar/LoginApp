@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+    <string name="db_drop">DROP TABLE IF EXISTS</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="join_now">Join now</string>
+    <string name="google">google</string>
+    <string name="not_a_member">Not a member ?</string>
+    <string name="or_sign_in_with">Or Sign in with</string>
+    <string name="facebook">facebook</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="hobies">Hobies</string>
+    <string name="dance">Dance</string>
+    <string name="sing">Sing</string>
+    <string name="guitar">Guitar</string>
+    <string name="gym">Gym</string>
+    <string name="female">female</string>
+    <string name="male">male</string>
+    <string name="gender">Gender</string>
+    <string name="birthday">BirthDay</string>
+    <string name="phonenumber">PhoneNumber</string>
+
+    <string name="name">Name</string>
+    <string name="sign_in">sign in</string>
+    <string name="create_account">Create Account</string>
+
+    <string name="nav_open">Navigation Drawer Open</string>
+    <string name="nav_close">Navigation Drawer Close</string>
+    <string name="aman_holkar">Aman Holkar</string>
+    <string name="amanholkar00_gmail_com">amanholkar00@gmail.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
